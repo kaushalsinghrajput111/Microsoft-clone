@@ -4,39 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/783e9a5443.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Microsoft – Cloud, Computers, Apps & Gaming</title>
 </head>
 <body>
-   <div class="navbar flex justify-between p-3 bg-white">
+   <div class="navbar flex justify-between md:px-14 md:py-4  py-3 bg-white">
     <div class="flex items-center md:hidden">
-    <div class="hamburger p-5 ">
-        <div class="line h-0.5 w-4 bg-black my-1"></div>
-        <div class="line h-0.5 w-4 bg-black my-1"></div>
-        <div class="line h-0.5 w-4 bg-black my-1"></div>
+    <div class="hamburger px-5 ">
+        <div class="line h-0.5  w-6 bg-black my-1"></div>
+        <div class="line h-0.5 w-6 bg-black my-1"></div>
+        <div class="line h-0.5 w-6 bg-black my-1"></div>
     </div>
-        <div class="search">search</div>
+        <div class="search w-6 rotate-90"> <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="w-5 h-5">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+          </svg>
+          </div>
    
 </div>
-<div class="logo md:order-1 flex justify-between items-center mx-2">
-    <div><img src="logo.png" alt=""></div>
-<div class="features md:mx-2 md:flex md:space-x-3 absolute inset-0 -translate-x-28 w-fit md:w-auto md:translate-x-0 md:static">
-    <div class="fitem">Microsoft</div>
-        <div class="fitem">365Teams</div>
-        <div class="fitem">Windows</div>
-        <div class="fitem">Surface</div>
-        <div class="fitem">Xbox</div>
-        <div class="fitem">Support</div>
+<div class="logo md:order-1 flex justify-between items-center md:space-x-4">
+    <div><img class="h-5 sm:h-6 md:h-6" src="logo.png" alt=""></div>
+<div class="features md:mx-2 md:flex md:space-x-4 absolute inset-0 -translate-x-28 w-fit md:w-auto md:translate-x-0 md:static md:text-sm">
+    <div class="fitem hover:underline">Microsoft 365</div>
+        <div class="fitem hover:underline">Teams</div>
+        <div class="fitem hover:underline">Windows</div>
+        <div class="fitem hover:underline">Surface</div>
+        <div class="fitem hover:underline">Xbox</div>
+        <div class="fitem hover:underline">Support</div>
 </div>
 </div>
 
-<div class="cart md:order-2 flex items-center justify-between ">
-    <div class="search hidden md:block">search</div>
-     <div class="px-3">cart</div> 
-     <div class="px-3">sign</div> 
+<div class="cart md:order-2 flex items-center justify-between space-x-3 px-5">
+    <div class="search hidden md:block w-6 rotate-90">
+        <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" className="w-4 h-4">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" /> </svg> </div>
+     <div class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+      </svg>
+      </div> 
+     <div class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-7 h-7">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+      </svg>
+      </div> 
     
 </div>
+   </div>
+
+
+   <div class="slider flex lg:flex-row flex-col-reverse ] bg-white  lg:items-center lg:bg-gradient-to-r from-[#cbe3fb] to-[#aed4f9]">
+    <div class="info md:bg-white lg:bg-transparent p-5 text-left py-7  lg:w-3/4 lg:ml-24 lg:absolute md:mx-5 md:relative md:bottom-5 md:shadow-lg lg:shadow-none lg:inset-auto ">
+        <h1 class="text-3xl leading-8 font-medium ">Microsoft 365</h1>
+        <p class="text-sm font-normal w-3/4 md:w-auto leading-8 py-3">Everything you need to achieve more in less time</p>
+        <div class="flex flex-col sm:flex-row leading-8  ">
+            <button class="bg-[#0067b8] w-40 px-3 py-2 text-white font-bold mr-5">For one person</button>
+            <div class="flex items-center text-[#0067b8] hover:transition">
+            <button class=" font-medium hover:underline mr-0.5 hover:mr-2 w-40">For up to six people </button> <div class=" transition ease-in-out delay-75 w-5"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </div>
+        </div>
+        </div>
+    </div>
+    <picture>
+        <source media="(min-width: 1400px)" srcset="fullpage.avif">
+        <source  media="(min-width: 1024px)" srcset="/VP4-1399.avif">
+        <source media="(min-width: 860px)" srcset="/recent img of microsoft slider.avif">
+        <source media="(min-width: 540px)" srcset="VP2-859.avif">
+        <img class="card-img w-full blur-up lazypreload lazyloaded" alt="Icons from the Microsoft 365 suite of apps such as Teams, Word, Outlook and more." src="VP1-539x440.avif" >
+    </picture>
    </div>
 </body>
 </html>
